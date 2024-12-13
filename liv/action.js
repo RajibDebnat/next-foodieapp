@@ -16,7 +16,7 @@ const handleShareMeal = async (prevState,formData) => {
     creator: formData.get("creator"),
     creator_email: formData.get("email"),
   };
-  console.log(meal)
+  console.log( "meal:"+meal)
   if (
     isInvalid(meal.title) ||
     isInvalid(meal.summary) ||

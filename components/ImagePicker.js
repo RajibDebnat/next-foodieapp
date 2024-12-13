@@ -32,7 +32,7 @@ ref.current.click();
         className={classes.input}
           type="file"
           id="image"
-          accept="image/png,image/jpg,image/jpeg"
+          accept="image/png,image/jpg"
           name={name}
           required
           onChange={handleInputChange}
